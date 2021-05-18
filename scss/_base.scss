@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+    color: var(--color-neutral-grey);
+    background-color: var(--color-neutral-white);
+    overflow-x: hidden;
+}
+
+// screen break points and media 
+
+$bp-large: 81.25em; // 1300px
+$bp-medium: 48em; // 768px
+$bp-small: 23.44em; // 375px
+
+
+:root {
+    --color-primary-blue-dark: #4D96A9;
+    --color-primary-blue-light: #8FE3F9;
+
+    --color-primary-violet-dark: #855FB1;
+    --color-primary-violet-light: #D9B8FF;
+
+    --color-neutral-dark: #28283D;
+
+    --color-neutral-grey: #87879D;
+    --color-neutral-white: #FAFAFA;
+}
